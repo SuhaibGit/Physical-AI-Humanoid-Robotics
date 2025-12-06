@@ -1,0 +1,227 @@
+# API Contract: Vision-Language-Action (VLA) Model Interface
+
+## Overview
+
+This document defines the API contract for interacting with Vision-Language-Action (VLA) models in the context of the AI-Native Robotics textbook. This contract describes the expected inputs, outputs, and behavior for VLA model interactions that may be demonstrated in the textbook examples.
+
+## Base URL
+
+All VLA model API endpoints are accessed relative to:
+`http://localhost:3000/api/vla`
+
+## Authentication
+
+No authentication required for textbook examples. In a production system, this would typically use API keys or OAuth.
+
+## Common Data Structures
+
+### VisionInput
+```json
+{
+  "image_url": "string (URL to image)",
+  "image_data": "string (base64 encoded image data)",
+  "camera_intrinsics": {
+    "fx": "number (focal length x)",
+    "fy": "number (focal length y)",
+    "cx": "number (principal point x)",
+    "cy": "number (principal point y)"
+  },
+  "depth_available": "boolean (whether depth data is available)"
+}
+```
+
+### LanguageInput
+```json
+{
+  "command": "string (natural language command)",
+  "task_description": "string (detailed task description)",
+  "constraints": "array of strings (task constraints)"
+}
+```
+
+### ActionOutput
+```json
+{
+  "action_type": "string (e.g., 'motion_primitive', 'manipulation', 'navigation')",
+  "action_parameters": {
+    "position": {
+      "x": "number",
+      "y": "number",
+      "z": "number"
+    },
+    "orientation": {
+      "qx": "number (quaternion x)",
+      "qy": "number (quaternion y)",
+      "qz": "number (quaternion z)",
+      "qw": "number (quaternion w)"
+    },
+    "gripper_position": "number (0.0 to 1.0)"
+  },
+  "confidence": "number (0.0 to 1.0)",
+  "reasoning": "string (explanation of the action choice)"
+}
+```
+
+## Endpoints
+
+### POST /predict
+
+Generate an action prediction from vision and language inputs.
+
+#### Request
+```json
+{
+  "vision_input": "VisionInput object",
+  "language_input": "LanguageInput object",
+  "model_type": "string (e.g., 'rt1', 'rt2', 'openvla')",
+  "temperature": "number (sampling temperature, default: 0.5)"
+}
+```
+
+#### Response
+```json
+{
+  "success": "boolean",
+  "prediction": "ActionOutput object",
+  "execution_time_ms": "number",
+  "model_version": "string",
+  "warnings": "array of strings (optional warnings)"
+}
+```
+
+#### Example Request
+```json
+{
+  "vision_input": {
+    "image_url": "/img/robot_scene.jpg",
+    "camera_intrinsics": {
+      "fx": 554.25,
+      "fy": 554.25,
+      "cx": 320.0,
+      "cy": 240.0
+    },
+    "depth_available": true
+  },
+  "language_input": {
+    "command": "Pick up the red cup on the table",
+    "task_description": "Grasp and lift the red cup without spilling",
+    "constraints": ["avoid obstacles", "preserve cup orientation"]
+  },
+  "model_type": "openvla",
+  "temperature": 0.7
+}
+```
+
+#### Example Response
+```json
+{
+  "success": true,
+  "prediction": {
+    "action_type": "manipulation",
+    "action_parameters": {
+      "position": {
+        "x": 0.5,
+        "y": 0.2,
+        "z": 0.3
+      },
+      "orientation": {
+        "qx": 0.0,
+        "qy": 0.0,
+        "qz": 0.0,
+        "qw": 1.0
+      },
+      "gripper_position": 0.0
+    },
+    "confidence": 0.85,
+    "reasoning": "Identified red cup at position (0.5, 0.2, 0.3). Calculated approach trajectory to grasp cup handle."
+  },
+  "execution_time_ms": 125,
+  "model_version": "openvla-2024",
+  "warnings": []
+}
+```
+
+### GET /models
+
+Retrieve available VLA models and their capabilities.
+
+#### Response
+```json
+{
+  "models": [
+    {
+      "name": "string (model identifier)",
+      "version": "string (model version)",
+      "capabilities": {
+        "vision_modalities": "array of strings (e.g., ['rgb', 'depth'])",
+        "language_understanding": "string (e.g., 'command_following', 'reasoning')",
+        "action_space": "string (e.g., 'joint_positions', 'end_effector_pose')",
+        "training_data_size": "string (e.g., 'large_scale', 'medium_scale')"
+      },
+      "recommended_use_cases": "array of strings",
+      "performance_metrics": {
+        "accuracy": "number (0.0 to 1.0)",
+        "latency_ms": "number",
+        "memory_gb": "number"
+      }
+    }
+  ]
+}
+```
+
+### POST /simulate-action
+
+Simulate the execution of an action in a virtual environment.
+
+#### Request
+```json
+{
+  "action": "ActionOutput object",
+  "environment_state": {
+    "robot_state": "object (current robot joint states)",
+    "object_poses": "array of objects (positions of relevant objects)",
+    "obstacles": "array of objects (obstacle positions and shapes)"
+  },
+  "simulation_steps": "number (default: 50)"
+}
+```
+
+#### Response
+```json
+{
+  "success": "boolean",
+  "result": {
+    "executed_action": "ActionOutput object",
+    "predicted_outcome": "string (e.g., 'success', 'failure', 'partial_success')",
+    "final_state": {
+      "robot_state": "object (predicted robot state after action)",
+      "object_poses": "array of objects (predicted object positions after action)",
+      "reward": "number (predicted reward for the action)"
+    },
+    "simulation_trace": "array of objects (step-by-step simulation states)"
+  },
+  "execution_time_ms": "number"
+}
+```
+
+## Error Responses
+
+All error responses follow this structure:
+
+```json
+{
+  "success": false,
+  "error": {
+    "code": "string (error code)",
+    "message": "string (human-readable error message)",
+    "details": "object (optional detailed error information)"
+  }
+}
+```
+
+### Common Error Codes
+- `INVALID_INPUT`: Provided input data is malformed or invalid
+- `MODEL_NOT_FOUND`: Requested model type is not available
+- `INSUFFICIENT_VISION_DATA`: Required visual information is missing
+- `EXECUTION_FAILED`: Action prediction failed due to internal error
+- `TIMEOUT`: Request took longer than allowed time limit

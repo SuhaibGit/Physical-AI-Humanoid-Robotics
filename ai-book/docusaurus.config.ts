@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'The AI-Native Textbook',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -66,6 +66,7 @@ const config: Config = {
     ],
   ],
 
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -83,11 +84,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'modulesSidebar',
           position: 'left',
-          label: 'Modules',
+          label: 'Book',
         },
         // {to: '/blog', label: 'Blog', position: 'left'}, // Removed as per plan
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/SuhaibGit/Physical-AI-Humanoid-Robotics',
           label: 'GitHub',
           position: 'right',
         },

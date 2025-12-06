@@ -1,10 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git fetch:*)",
-      "Bash(git checkout:*)",
-      "mcp__context7__get-library-docs",
-      "Bash(git push:*)"
+      "Bash(npm start)",
+      "Bash(git --version)",
+      "Bash(git add .)"
     ],
     "deny": [],
     "ask": []
