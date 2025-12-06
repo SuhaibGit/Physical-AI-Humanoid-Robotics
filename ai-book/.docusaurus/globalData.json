@@ -1,0 +1,265 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/Physical-AI-Humanoid-Robotics/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/Physical-AI-Humanoid-Robotics/docs",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "gazebo-unity/index",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/gazebo-unity/"
+            },
+            {
+              "id": "index",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/"
+            },
+            {
+              "id": "intro",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/intro"
+            },
+            {
+              "id": "modules/module2/creating-worlds",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/creating-worlds",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/digital-twins",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/digital-twins",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/gazebo-intro",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/gazebo-intro",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/gazebo-ros2-integration",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/gazebo-ros2-integration",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/industry-usecases",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/industry-usecases",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/simulation-example",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/simulation-example",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/spawning-robots",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/spawning-robots",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/unity-frontend",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/unity-frontend",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module2/unity-robotics-overview",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/unity-robotics-overview",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/example-navigation-or-perception",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/example-navigation-or-perception",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/fm-for-robotics",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/fm-for-robotics",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/gpu-robotics",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/gpu-robotics",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/isaac-humanoid-robotics",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-humanoid-robotics",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/isaac-overview",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-overview",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/isaac-ros",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-ros",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/isaac-sim-basics",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-sim-basics",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/perception-pipelines",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/perception-pipelines",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module3/rl-workflows",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/rl-workflows",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/action-generation",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/action-generation",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/dataset-design",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/dataset-design",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/evolution-of-vlm-to-vla",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/evolution-of-vlm-to-vla",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/humanoid-vla-example",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/humanoid-vla-example",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/intro-to-vla",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/intro-to-vla",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/perception-pipelines",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/perception-pipelines",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/safety-and-failures",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/safety-and-failures",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/training-pipelines",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/training-pipelines",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/vla-models",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/vla-models",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "modules/module4/world-models-and-actions",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/world-models-and-actions",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "nvidia-isaac/index",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/nvidia-isaac/"
+            },
+            {
+              "id": "ros2/architecture",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/architecture",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/index",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/launch-parameters",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/launch-parameters",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/nodes-topics-services-actions",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/nodes-topics-services-actions",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/packages-workspace",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/packages-workspace",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/pub-sub-examples",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/pub-sub-examples",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/rclpy-basics",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/rclpy-basics",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/simple-ros2-node",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/simple-ros2-node",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "ros2/urdf-overview",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/urdf-overview",
+              "sidebar": "modulesSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/tutorial-extras/translate-your-site"
+            },
+            {
+              "id": "vla/index",
+              "path": "/Physical-AI-Humanoid-Robotics/docs/vla/"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "modulesSidebar": {
+              "link": {
+                "path": "/Physical-AI-Humanoid-Robotics/docs/ros2/",
+                "label": "Module 1: ROS 2 - The Robotic Nervous System"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

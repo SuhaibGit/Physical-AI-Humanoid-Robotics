@@ -1,0 +1,23 @@
+{
+  "id": "modules/module2/industry-usecases",
+  "title": "Digital Twins in Industry and Humanoid Robotics",
+  "description": "Digital twins have emerged as a transformative technology across various industries, particularly in robotics. They enable the creation of virtual replicas of physical systems, allowing for simulation, testing, optimization, and predictive maintenance without direct interaction with the physical hardware.",
+  "source": "@site/docs/modules/module2/industry-usecases.md",
+  "sourceDirName": "modules/module2",
+  "slug": "/modules/module2/industry-usecases",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/industry-usecases",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Simple Hands-On Simulation Example: Gazebo + ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/simulation-example"
+  },
+  "next": {
+    "title": "Isaac Ecosystem Overview (Isaac Sim, Isaac ROS, Isaac Gym)",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-overview"
+  }
+}

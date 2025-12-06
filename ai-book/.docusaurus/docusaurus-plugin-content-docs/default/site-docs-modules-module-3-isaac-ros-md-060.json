@@ -1,0 +1,23 @@
+{
+  "id": "modules/module3/isaac-ros",
+  "title": "Isaac ROS",
+  "description": "Isaac ROS is a collection of GPU-accelerated software packages designed to run on NVIDIA Jetson platforms and other NVIDIA hardware for robotics perception and navigation. These packages leverage NVIDIA's hardware acceleration capabilities to deliver high-performance processing for critical robotics tasks.",
+  "source": "@site/docs/modules/module3/isaac-ros.md",
+  "sourceDirName": "modules/module3",
+  "slug": "/modules/module3/isaac-ros",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-ros",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Isaac Sim Basics",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-sim-basics"
+  },
+  "next": {
+    "title": "GPU-Accelerated Robotics Pipelines",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/gpu-robotics"
+  }
+}

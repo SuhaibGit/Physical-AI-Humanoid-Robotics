@@ -1,0 +1,26 @@
+{
+  "id": "modules/module4/perception-pipelines",
+  "title": "Perception Pipelines in VLA Systems",
+  "description": "Overview",
+  "source": "@site/docs/modules/module4/perception-pipelines.md",
+  "sourceDirName": "modules/module4",
+  "slug": "/modules/module4/perception-pipelines",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/perception-pipelines",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Evolution from Vision-Language to Vision-Language-Action Models",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/evolution-of-vlm-to-vla"
+  },
+  "next": {
+    "title": "VLA Models: RT-1, RT-2, OpenVLA and Beyond",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/vla-models"
+  }
+}

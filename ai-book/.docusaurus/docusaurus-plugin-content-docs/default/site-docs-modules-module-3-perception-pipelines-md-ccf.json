@@ -1,0 +1,23 @@
+{
+  "id": "modules/module3/perception-pipelines",
+  "title": "Perception: Camera, LiDAR, Depth Sensors",
+  "description": "Perception is the cornerstone of robotic intelligence, enabling robots to understand and interact with their environment. This section covers the fundamentals of processing data from key sensors: cameras, LiDAR, and depth sensors, often used in NVIDIA Isaac applications.",
+  "source": "@site/docs/modules/module3/perception-pipelines.md",
+  "sourceDirName": "modules/module3",
+  "slug": "/modules/module3/perception-pipelines",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/perception-pipelines",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "GPU-Accelerated Robotics Pipelines",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/gpu-robotics"
+  },
+  "next": {
+    "title": "Foundation Models for Robotics (OVM, VLA Intro)",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/fm-for-robotics"
+  }
+}

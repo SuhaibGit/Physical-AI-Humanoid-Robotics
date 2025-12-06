@@ -1,0 +1,28 @@
+{
+  "id": "ros2/architecture",
+  "title": "ROS 2 Architecture Overview",
+  "description": "The Robot Operating System 2 (ROS 2) is built on a robust and flexible architecture designed to meet the demands of modern robotics. Understanding this architecture is crucial for developing efficient and scalable robotic applications.",
+  "source": "@site/docs/ros2/architecture.md",
+  "sourceDirName": "ros2",
+  "slug": "/ros2/architecture",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/architecture",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "next": {
+      "title": "Nodes, Topics, Services, and Actions",
+      "description": "Understand the primary communication paradigms in ROS 2"
+    }
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Introduction to ROS 2 - The Robotic Nervous System",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/"
+  },
+  "next": {
+    "title": "Nodes, Topics, Services, and Actions in ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/nodes-topics-services-actions"
+  }
+}
