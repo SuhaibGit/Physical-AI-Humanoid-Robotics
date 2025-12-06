@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npm start)",
       "Bash(git --version)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"feat(ros2-ui): Add ROS2 documentation and UI components for VLA system\n\n- Add comprehensive ROS2 documentation including architecture, nodes, topics, and services\n- Implement Chatbot component with styling and functionality\n- Update Docusaurus configuration and sidebar for new documentation structure\n- Add custom CSS styling for improved UI experience\n- Update logo for the documentation site\n- Create module documentation for modules 2, 3, and 4 covering digital twins, Isaac, and VLA systems\n- Add Prompt History Records and spec files for tracking development progress\")",
+      "Bash(git push -u origin 004-v4-vla-ui-rebuild)",
+      "Bash(gh pr create --title \"feat(ros2-ui): Add ROS2 documentation and UI components for VLA system\" --body \"## Summary\n\nThis PR adds comprehensive ROS2 documentation and UI components for the VLA (Vision-Language-Action) system. Key changes include:\n\n- Comprehensive ROS2 documentation covering architecture, nodes, topics, and services\n- Implementation of Chatbot component with styling and functionality\n- Updates to Docusaurus configuration and sidebar for new documentation structure\n- Custom CSS styling for improved UI experience\n- Updated logo for the documentation site\n- Module documentation for modules 2, 3, and 4 covering digital twins, Isaac, and VLA systems\n- Prompt History Records and spec files for tracking development progress\n\n## Files Changed\n\n- ROS2 documentation files in ai-book/docs/ros2/\n- UI components in ai-book/src/components/\n- Docusaurus configuration and styling\n- Module documentation for modules 2, 3, and 4\n- Specification and planning files in specs/\n- Prompt History Records in history/prompts/\n\n## Test Plan\n\n- Verify documentation renders correctly in Docusaurus\n- Check that UI components function as expected\n- Ensure all new documentation content is properly formatted and accessible\")"
     ],
     "deny": [],
     "ask": []
