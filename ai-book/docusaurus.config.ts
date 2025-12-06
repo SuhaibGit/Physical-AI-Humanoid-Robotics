@@ -107,6 +107,19 @@ const config: Config = {
           ],
         },
         {
+          title: 'AI & Robotics',
+          items: [
+            {
+              label: 'ROS2 Guide',
+              to: '/docs/ros2',
+            },
+            {
+              label: 'VLA Systems',
+              to: '/docs/modules/module4',
+            },
+          ],
+        },
+        {
           title: 'Community',
           items: [
             {
