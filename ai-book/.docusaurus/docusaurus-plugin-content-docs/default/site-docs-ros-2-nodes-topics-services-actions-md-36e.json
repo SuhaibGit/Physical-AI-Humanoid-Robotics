@@ -1,0 +1,28 @@
+{
+  "id": "ros2/nodes-topics-services-actions",
+  "title": "Nodes, Topics, Services, and Actions in ROS 2",
+  "description": "Understanding the fundamental communication primitives—Nodes, Topics, Services, and Actions—is essential for building any robotic application with ROS 2. These components form the \"nervous system\" of a ROS 2 system, allowing different parts of a robot's software to interact seamlessly.",
+  "source": "@site/docs/ros2/nodes-topics-services-actions.md",
+  "sourceDirName": "ros2",
+  "slug": "/ros2/nodes-topics-services-actions",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/nodes-topics-services-actions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "next": {
+      "title": "Packages and Workspace Management",
+      "description": "Learn how to organize your ROS 2 code in packages and manage workspaces"
+    }
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "ROS 2 Architecture Overview",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/architecture"
+  },
+  "next": {
+    "title": "ROS 2 Packages and Workspace Structure",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/packages-workspace"
+  }
+}

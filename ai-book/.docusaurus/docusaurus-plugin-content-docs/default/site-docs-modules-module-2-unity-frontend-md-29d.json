@@ -1,0 +1,23 @@
+{
+  "id": "modules/module2/unity-frontend",
+  "title": "Using Unity as a High-Fidelity Front-End",
+  "description": "Unity's capabilities extend beyond just simulation; it can serve as a powerful and visually rich front-end for robotics applications, especially when coupled with other simulators like Gazebo or directly with physical robots via communication bridges like ROS 2. This allows for advanced visualization, intuitive control interfaces, and immersive user experiences.",
+  "source": "@site/docs/modules/module2/unity-frontend.md",
+  "sourceDirName": "modules/module2",
+  "slug": "/modules/module2/unity-frontend",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/unity-frontend",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Unity for Robotics Visualization",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/unity-robotics-overview"
+  },
+  "next": {
+    "title": "Simple Hands-On Simulation Example: Gazebo + ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/simulation-example"
+  }
+}

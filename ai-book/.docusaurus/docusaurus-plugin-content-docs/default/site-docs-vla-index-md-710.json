@@ -1,0 +1,14 @@
+{
+  "id": "vla/index",
+  "title": "Vision-Language-Action - VLA",
+  "description": "Welcome to the Vision-Language-Action (VLA) module. This section will explore the integration of computer vision, natural language processing, and robotic action to enable intelligent agents to perceive, understand, and interact with the world.",
+  "source": "@site/docs/vla/index.md",
+  "sourceDirName": "vla",
+  "slug": "/vla/",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/vla/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

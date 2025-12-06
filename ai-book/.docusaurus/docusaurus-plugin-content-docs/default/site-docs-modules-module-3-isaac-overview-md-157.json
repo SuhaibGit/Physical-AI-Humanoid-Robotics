@@ -1,0 +1,23 @@
+{
+  "id": "modules/module3/isaac-overview",
+  "title": "Isaac Ecosystem Overview (Isaac Sim, Isaac ROS, Isaac Gym)",
+  "description": "The NVIDIA Isaac ecosystem is a comprehensive suite of tools and platforms designed to accelerate the development and deployment of AI-powered robots. It leverages NVIDIA's expertise in GPU computing and AI to provide high-performance simulation, perception, and learning capabilities for robotics.",
+  "source": "@site/docs/modules/module3/isaac-overview.md",
+  "sourceDirName": "modules/module3",
+  "slug": "/modules/module3/isaac-overview",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Digital Twins in Industry and Humanoid Robotics",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/industry-usecases"
+  },
+  "next": {
+    "title": "Isaac Sim Basics",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module3/isaac-sim-basics"
+  }
+}

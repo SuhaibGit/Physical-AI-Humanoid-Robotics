@@ -1,0 +1,24 @@
+{
+  "id": "ros2/index",
+  "title": "Introduction to ROS 2 - The Robotic Nervous System",
+  "description": "Welcome to the ROS 2 Module, your entry point into the world of the Robot Operating System 2. This module is designed to provide a comprehensive understanding of ROS 2, its core concepts, architecture, and practical application in building intelligent robotic systems.",
+  "source": "@site/docs/ros2/index.md",
+  "sourceDirName": "ros2",
+  "slug": "/ros2/",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "next": {
+      "title": "ROS 2 Architecture Overview",
+      "description": "Explore the fundamental architecture and components of ROS 2"
+    }
+  },
+  "sidebar": "modulesSidebar",
+  "next": {
+    "title": "ROS 2 Architecture Overview",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/architecture"
+  }
+}
