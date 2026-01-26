@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rm -r --cached .)",
+      "Bash(git add .)",
+      "Bash(git add .nojekyll 404.html assets/ blog/ docs/ img/ index.html markdown-page/ sitemap.xml)"
+    ]
+  }
+}
