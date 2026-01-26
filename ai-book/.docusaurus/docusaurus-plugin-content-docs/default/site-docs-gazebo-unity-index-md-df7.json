@@ -1,0 +1,14 @@
+{
+  "id": "gazebo-unity/index",
+  "title": "Gazebo & Unity - The Digital Twin",
+  "description": "Welcome to the Gazebo & Unity module. This section will explore the creation of digital twins using Gazebo and Unity, focusing on simulation, visualization, and integration with robotic systems.",
+  "source": "@site/docs/gazebo-unity/index.md",
+  "sourceDirName": "gazebo-unity",
+  "slug": "/gazebo-unity/",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/gazebo-unity/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

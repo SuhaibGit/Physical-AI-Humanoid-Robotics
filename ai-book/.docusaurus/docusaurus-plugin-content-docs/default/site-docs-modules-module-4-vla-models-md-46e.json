@@ -1,0 +1,26 @@
+{
+  "id": "modules/module4/vla-models",
+  "title": "VLA Models: RT-1, RT-2, OpenVLA and Beyond",
+  "description": "Overview",
+  "source": "@site/docs/modules/module4/vla-models.md",
+  "sourceDirName": "modules/module4",
+  "slug": "/modules/module4/vla-models",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/vla-models",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Perception Pipelines in VLA Systems",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/perception-pipelines"
+  },
+  "next": {
+    "title": "World Models and Policy Generation in VLA Systems",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/world-models-and-actions"
+  }
+}

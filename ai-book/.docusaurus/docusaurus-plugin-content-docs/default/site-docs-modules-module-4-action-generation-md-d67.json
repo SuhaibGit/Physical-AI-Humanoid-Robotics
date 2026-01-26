@@ -1,0 +1,26 @@
+{
+  "id": "modules/module4/action-generation",
+  "title": "Action Generation: Mapping Vision and Language to Robot Actions",
+  "description": "Overview",
+  "source": "@site/docs/modules/module4/action-generation.md",
+  "sourceDirName": "modules/module4",
+  "slug": "/modules/module4/action-generation",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/action-generation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "World Models and Policy Generation in VLA Systems",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/world-models-and-actions"
+  },
+  "next": {
+    "title": "Dataset Design for Embodied Agents",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module4/dataset-design"
+  }
+}

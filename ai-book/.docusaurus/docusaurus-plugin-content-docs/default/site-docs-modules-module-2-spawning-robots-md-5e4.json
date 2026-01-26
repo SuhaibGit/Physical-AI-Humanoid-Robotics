@@ -1,0 +1,23 @@
+{
+  "id": "modules/module2/spawning-robots",
+  "title": "Spawning Robots (URDF/SDF)",
+  "description": "To simulate robots in Gazebo, you need to describe their physical properties, joints, and sensors. This is typically done using URDF (Unified Robot Description Format) or SDF (Simulation Description Format) files. URDF is primarily for describing a single robot, while SDF can describe robots as well as environments.",
+  "source": "@site/docs/modules/module2/spawning-robots.md",
+  "sourceDirName": "modules/module2",
+  "slug": "/modules/module2/spawning-robots",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/spawning-robots",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Building and Simulating Worlds in Gazebo",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/creating-worlds"
+  },
+  "next": {
+    "title": "Gazebo-ROS 2 Integration (ros_gz)",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/gazebo-ros2-integration"
+  }
+}

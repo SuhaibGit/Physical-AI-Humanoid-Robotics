@@ -1,0 +1,28 @@
+{
+  "id": "ros2/pub-sub-examples",
+  "title": "Basic Publisher/Subscriber Examples in ROS 2 (rclpy)",
+  "description": "The publish/subscribe communication pattern is fundamental to ROS 2, allowing nodes to asynchronously exchange messages. This chapter provides hands-on Python code examples using rclpy to demonstrate how to create a basic publisher and a basic subscriber.",
+  "source": "@site/docs/ros2/pub-sub-examples.md",
+  "sourceDirName": "ros2",
+  "slug": "/ros2/pub-sub-examples",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/pub-sub-examples",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "next": {
+      "title": "Simple ROS 2 Node Example",
+      "description": "Build a complete hands-on ROS 2 node with practical implementation"
+    }
+  },
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "rclpy Basics - Python Client Library for ROS 2",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/rclpy-basics"
+  },
+  "next": {
+    "title": "URDF Overview - Unified Robot Description Format",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/ros2/urdf-overview"
+  }
+}

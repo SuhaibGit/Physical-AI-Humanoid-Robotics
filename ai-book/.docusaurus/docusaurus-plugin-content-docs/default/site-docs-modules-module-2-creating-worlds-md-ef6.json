@@ -1,0 +1,23 @@
+{
+  "id": "modules/module2/creating-worlds",
+  "title": "Building and Simulating Worlds in Gazebo",
+  "description": "Creating compelling simulation environments in Gazebo is essential for realistic robotics testing. This section guides you through defining and launching custom worlds, adding static objects, and configuring environmental properties.",
+  "source": "@site/docs/modules/module2/creating-worlds.md",
+  "sourceDirName": "modules/module2",
+  "slug": "/modules/module2/creating-worlds",
+  "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/creating-worlds",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "modulesSidebar",
+  "previous": {
+    "title": "Gazebo (Ignition) Overview",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/gazebo-intro"
+  },
+  "next": {
+    "title": "Spawning Robots (URDF/SDF)",
+    "permalink": "/Physical-AI-Humanoid-Robotics/docs/modules/module2/spawning-robots"
+  }
+}
